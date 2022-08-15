@@ -1,0 +1,93 @@
+html{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+h2{
+    margin-left: 65px;
+    margin-right: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    font-size: 150%;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: small;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e7aba7;
+    width: 500px;
+} 
+
+input{
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+}
+
+input:hover{
+    border: 2px solid #e7aba7;
+}
+
+#links{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#acessar{
+    background-color: #ebc2bf;
+    margin-left: 7.5px;
+}
+
+#esqueceu{
+    margin-left: 30px;
+    color: white;
+}
+
+#esqueceu:hover{
+    color: #ebc2bf;
+}
+
+#cat{
+    width: 200px;
+}
+
+#icondivdiv{
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+#icondiv{
+    display: inline;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#icon{
+    width: 40px;
+    align-items: center;
+}
+
+#icon:hover{
+    filter: drop-shadow(3px 3px 6px rgba(199, 165, 163, 0.281));
+}
